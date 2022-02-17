@@ -9,7 +9,12 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+/* Header pg */
+a {
+  text-decoration: none;
+}
 
+/* Section page */
 @keyframes animateDown {
   0%,
   20%,
