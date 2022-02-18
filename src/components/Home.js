@@ -60,5 +60,5 @@ function Home() {
 export default Home
 
 const Container = styled.div`
-   yaheight:100vh;
+   height:100vh;
 `
