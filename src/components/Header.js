@@ -90,7 +90,7 @@ const CustomMenu = styled(MenuIcon)`
   cursor:pointer;
   @media (max-width:768px){
         margin-right:1px;
-        margin-left:5px;
+        margin-left:7px;
       }
 `
 
