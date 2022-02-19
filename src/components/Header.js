@@ -75,12 +75,13 @@ const RightMenu = styled.div`
   a{
      font-weight:600;
      text-transform:uppercase;
-     margin-right:10px;
+     margin-right:15px;
    }
    @media (max-width:768px){
     a{
         font-weight:500;
         margin-right:3px;
+        margin-left:5px;
         font-size:12px;
       }
 }

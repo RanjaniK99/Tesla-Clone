@@ -28,7 +28,7 @@ function Home() {
             <Section 
                title="Model x" 
                description="Order Online for Touchless Delivery"
-               backgorundImg="model-x.jpg"
+               backgorundImg="model-X.jpg"
                leftButton= "Custom order"
                rightButton="Existing Inventory"  
             />

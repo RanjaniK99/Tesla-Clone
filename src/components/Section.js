@@ -43,9 +43,6 @@ const Wrap= styled.div`
    flex-direction:column;
    justify-content:space-between; 
    align-items:center;  //horizontal
-//    @media (min-width:1008px){
-//     height:fit-content;
-// }
 `
 const ItemText = styled.div`
     padding-top:15vh;
