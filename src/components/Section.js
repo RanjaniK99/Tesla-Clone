@@ -36,14 +36,16 @@ const Wrap= styled.div`
    width:100vw;
    height:100vh;
    background-size:cover;
-   background-postion:center;
+   background-position:center;
    background-repeat:no-repeat;
-   background-image:${props =>`url("./img/${props.bgImage}")`};
+   background-image:${props =>`url("/img/${props.bgImage}")`};
    display:flex;
    flex-direction:column;
-   justify-content:space-between; //vertical
+   justify-content:space-between; 
    align-items:center;  //horizontal
-   
+//    @media (min-width:1008px){
+//     height:fit-content;
+// }
 `
 const ItemText = styled.div`
     padding-top:15vh;
@@ -79,7 +81,6 @@ const RightButton= styled(LeftButton)`
 
 `
 const DownArrow = styled.img`
-  
   height:40px;
   overflow-x:hidden;
   animation: animateDown infinite 1.5s;
