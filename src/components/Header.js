@@ -81,13 +81,17 @@ const RightMenu = styled.div`
     a{
         font-weight:500;
         margin-right:3px;
-        margin-left:5px;
+        margin-left:10px;
         font-size:12px;
       }
 }
 `
 const CustomMenu = styled(MenuIcon)`
-  cursor:pointer; 
+  cursor:pointer;
+  @media (max-width:768px){
+        margin-right:1px;
+        margin-left:5px;
+      }
 `
 
 const BurgerNav = styled.div`
